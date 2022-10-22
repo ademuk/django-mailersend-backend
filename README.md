@@ -18,14 +18,14 @@ In your `settings.py`:
 ```py
 INSTALLED_APPS = [
    ...,
-   'django_mailersend_backend',
+   'mailersend_backend',
    ...
 ]   
 ```
 
 2. Set the email backend
 ```py
-EMAIL_BACKEND = 'django_mailersend_backend.MailersendBackend'
+EMAIL_BACKEND = 'mailersend_backend.MailersendBackend'
 ```
 
 3. Define the configuration parameters as per [the mailersend python sdk](https://github.com/mailersend/mailersend-python#authentication)

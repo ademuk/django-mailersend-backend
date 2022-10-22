@@ -5,6 +5,9 @@ authors = [
     "Adem Gaygusuz <adem@ardweb.co.uk>",
 ]
 version = "0.1.0"
+packages = [
+    { include = "mailersend_backend" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -13,7 +16,7 @@ Django = ">=1.4"
 
 [tool.semantic_release]
 version_variable = [
-    "django_mailersend_backend/__init__.py:__version__",
+    "mailersend_backend/__init__.py:__version__",
     "pyproject.toml:version"
 ]
 branch = "main"
