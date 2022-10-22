@@ -4,7 +4,7 @@ description = "Email backend for Django which sends email via the Mailersend API
 authors = [
     "Adem Gaygusuz <adem@ardweb.co.uk>",
 ]
-version = "0.1.0"
+version = "0.1.1"
 packages = [
     { include = "mailersend_backend" },
 ]
